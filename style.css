@@ -1,0 +1,36 @@
+
+body {
+    background-color: #FFF;
+    color: #111;
+    margin: 0;
+}
+
+div {
+    border: solid red 1px;
+}
+
+#logoplayerpanel {
+    height: 100px;
+}
+
+#logo {
+    float: left;
+    width: 400px;
+}
+
+#player {
+    float: left;
+    left: 400px;
+}
+
+#navigation {
+    height: 40px;
+}
+
+.navigationitem {
+    float: left;
+    width: 170px;
+    text-align: center;
+    font-weight: bold;
+}
+
