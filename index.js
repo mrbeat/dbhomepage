@@ -34,7 +34,9 @@ function twitterCallback(resp) {
 
 function setTwitterStatus() {
     
-    
+    var scripttag = document.createElement('script');
+    scripttag.src = "https://api.twitter.com/1/statuses/user_timeline.json?screen_name=rrrblipbeep&callback=twitterCallback";
+    document.body.appendChild(scripttag);
     
 }
 
