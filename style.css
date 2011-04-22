@@ -9,13 +9,18 @@ div {
     border: solid red 1px;
 }
 
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
 #logoplayerpanel {
     height: 100px;
 }
 
 #logo {
     float: left;
-    width: 400px;
+    width: 360px;
 }
 
 #player {
@@ -29,8 +34,11 @@ div {
 
 .navigationitem {
     float: left;
-    width: 170px;
+    width: 120px;
+    height: 40px;
     text-align: center;
     font-weight: bold;
 }
+
+
 

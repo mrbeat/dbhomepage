@@ -3,19 +3,24 @@ function init() {
     
     var navigation = _.G('navigation');
     var navigationitems = [
+        "News",
         "Vem &auml;r Mr.Beat?",
-        "info/bokning/github",
-        "Freddots kalsongblogg"
+        "Teman",
+        "info/&zwnj;bokning/&zwnj;github",
+        //"Freddots kalsongblogg"
     ];
+    var item, a, i, len;
     
-    var item;
+    for (i = 0, len = navigationitems.length; i < len; i++) {
     
-    for (var i = 0, len = navigationitems.length; i < len; i++) {
         item = document.createElement('div');
-        item.innerHTML = navigationitems[i];
         item.className = 'navigationitem';
-        //_.AC(item, 'navigationitem');
+        a = document.createElement('a');
+        a.href = "#";
+        a.innerHTML = navigationitems[i];
+        item.appendChild(a);
         navigation.appendChild(item);
+        
     }
     
 }
