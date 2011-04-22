@@ -21,6 +21,10 @@ a {
 #logo {
     float: left;
     width: 360px;
+    height: 100px;
+    background-image: url(logo.png);
+    text-align: right;
+    vertical-align: bottom;
 }
 
 #player {

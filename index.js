@@ -25,3 +25,9 @@ function init() {
     
 }
 
+function setTwitterStatus() {
+    _.X("https://api.twitter.com/1/statuses/user_timeline.json?screen_name=rrrblipbeep&count=2", function(resp) {
+        r = resp;
+    });
+}
+
