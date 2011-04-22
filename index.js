@@ -23,11 +23,18 @@ function init() {
         
     }
     
+    setTwitterStatus();
+    
+}
+
+function twitterCallback(resp) {
+    _.G("twitterstatus").innerHTML = resp[0].text;
+    
 }
 
 function setTwitterStatus() {
-    _.X("https://api.twitter.com/1/statuses/user_timeline.json?screen_name=rrrblipbeep&count=2", function(resp) {
-        r = resp;
-    });
+    
+    
+    
 }
 
