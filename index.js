@@ -28,7 +28,11 @@ function init() {
 }
 
 function twitterCallback(resp) {
-    _.G("twitterstatus").innerHTML = resp[0].text;
+    var a = document.createElement('a');
+    a.href = "https://twitter.com/#!/rrrblipbeep";
+    a.innerHTML = '&quot;' + resp[0].text + '&quot;';
+    _.G("twitterstatus").appendChild(a);
+    //_.G("twitterstatus").innerHTML = resp[0].text;
     
 }
 

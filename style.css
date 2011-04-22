@@ -34,6 +34,10 @@ a {
     bottom: 0;
     margin: 0px 40px 5px 40px;
 }
+#twitterstatus a {
+    text-decoration: none;
+    color: #777;
+}
 
 #player {
     float: left;
