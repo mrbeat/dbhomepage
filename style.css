@@ -7,6 +7,10 @@ body {
     font-size: 14px;
 }
 
+pre {
+    font-family: 'Arimo';
+}
+
 div {
     border: solid red 0px;
 }
@@ -55,7 +59,7 @@ a {
 	padding: 0 20px 0 20px;
 	border-bottom: 1px solid #AAA;
 	border-top: 1px solid #AAA;
-	background-color: #FFF;
+	background-color: #ddd;
 }
  
 #navigation li {
@@ -72,14 +76,29 @@ a {
 	line-height: 20px;
 	/* font-weight: bold; */
 	margin: 3px 30px 3px 10px;
-	/* text-decoration: underline; */
+	text-decoration: none;
 	/* color: #111; */
 }
  
 #navigation a.active:link, #navigation a.active:visited, #navigation a:hover {
 	/* border-bottom: 0px solid #333; */
 	/* padding-bottom: 0px; */
-	color: #11A;
+	color: #11C;
+}
+
+.currentpage {
+    background-color: #fff;
+}
+
+h1 {
+    border-bottom: 1px solid #333;
+}
+
+#content {
+    margin: 15px;
+    margin-left: 50px;
+    top: 135px;
+    position: absolute;
 }
 
 
