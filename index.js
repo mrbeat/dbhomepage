@@ -1,27 +1,36 @@
 
 function init() {
     
-    var navigation = _.G('navigation');
+    var navigation = _.G('navigation_container');
     var navigationitems = [
-        "News",
+        "Pre-happening",
+        "Post-happening",
         "Vem &auml;r Mr.Beat?",
         "Teman",
         "info/&zwnj;bokning/&zwnj;github",
-        //"Freddots kalsongblogg"
+        "Freddots kalsongblogg"
     ];
     var item, a, i, len;
+    var ul = document.createElement('ul');
+    ul.id = 'navigation';
     
     for (i = 0, len = navigationitems.length; i < len; i++) {
-    
-        item = document.createElement('div');
-        item.className = 'navigationitem';
+        
+        item = document.createElement('li');
+        
+        if (i === 0) {
+            item.className = "active";
+        }
+        
         a = document.createElement('a');
         a.href = "#";
         a.innerHTML = navigationitems[i];
         item.appendChild(a);
-        navigation.appendChild(item);
+        ul.appendChild(item);
         
     }
+    
+    navigation.appendChild(ul);
     
     setTwitterStatus();
     
@@ -32,8 +41,6 @@ function twitterCallback(resp) {
     a.href = "https://twitter.com/#!/rrrblipbeep";
     a.innerHTML = '&quot;' + resp[0].text + '&quot;';
     _.G("twitterstatus").appendChild(a);
-    //_.G("twitterstatus").innerHTML = resp[0].text;
-    
 }
 
 function setTwitterStatus() {
