@@ -1,0 +1,42 @@
+<html>
+<head>
+
+<title>DB Homepage - 
+<!--MTI title -->
+</title>
+
+<link rel="SHORTCUT ICON" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link href='http://fonts.googleapis.com/css?family=Arimo:regular,bold' rel='stylesheet' type='text/css' />
+
+<script type="text/javascript" src="vx.js"></script>
+<script type="text/javascript" src="common.js"></script>
+
+<!--MTI scripts -->
+
+</head>
+
+<!--MTI bodyonload -->
+
+<div id="logoplayerpanel">
+    <div id="logo"><p id="twitterstatus"></p></div>
+    <div id="player">player</div>
+</div>
+
+<div id="navigation_container">
+<ul id="navigation">
+    <li id="navigation_index"><a href="index.html">News</a></li>
+    <li id="navigation_olds"><a href="olds.html">Olds</a></li>
+    <li id="navigation_mrbeat"><a href="mrbeat.html">Vem &auml;r Mr. Beat?</a></li>
+    <li id="navigation_teman"><a href="teman.html">Teman</a></li>
+    <li id="navigation_info"><a href="info.html">info/&zwnj;bokning/&zwnj;github</a></li>
+</ul>
+</div>
+
+<div id="content">
+<!--MTI content -->
+</div>
+
+</body>
+
+</html>
