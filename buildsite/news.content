@@ -1,12 +1,6 @@
 %MTI %% scripts
+<script type="text/javascript" src="index.js"></script>
 %MTI %% title
-News
+<title>Db Homepage - News</title>
 %MTI %% bodyonload
-<body onload="init('navigation_index');">
-%MTI %% content
-<h1>News</h1>
-<pre>Det verkar g&aring; fram&aring;t med HOMEPAGE iaf! Det k&auml;nns sk&ouml;nt!</pre>
-
-<h2>Provar lite olika header-storlekar</h2>
-<pre>...och &auml;ven hur bordern f&ouml;h&aring;ller sig. Ser bra ut!
-Men fungerar radbryt? nej.. :S</pre>
+<body onload="indexInit('navigation_index');">

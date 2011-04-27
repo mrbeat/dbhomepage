@@ -15,7 +15,7 @@ _.on=_.E=function(e,t,f,r){if(e.attachEvent?(r?e.detachEvent('on'+t,e[t+f]):1):(
 _.extend=_.T=function(o,a,y){for(y in a)o[y]=a[y];return o}
 _.id=_.G=function(e){return e.style?e:_.d.getElementById(e)}
 _.entity=_.H=function(s,d,t){t=_.d.createElement('textarea');t.innerHTML=s;return d?t.value:t.innerHTML}
-_.include=_.N=function(s,e){e=_.d.createElement('script');e.src=s;_.d.body.appendChild(e)}
+_.include=_.IN=function(s,e){e=_.d.createElement('script');e.src=s;_.d.body.appendChild(e)}
 _.ns=_.N=function(n,p,r){p=n.split('.');r=window;for(i in p){if(!r[p[i]])r[p[i]]={};r=r[p[i]]}return r}
 _.query=_.Q=function(j,y,x){y='';for(x in j)y+='&'+x+'='+encodeURIComponent(j[x]);return y.slice(1)}
 _.remove=_.V=function(e,o,x){x=_.I(e,o);x>0?o.splice(x,1):0}

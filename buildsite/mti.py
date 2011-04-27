@@ -49,7 +49,7 @@ for line in template:
                 final = final + l
 
 
-print final
+#print final
 endfile.write(final)
 
 # close files
@@ -60,4 +60,4 @@ template.close()
 directivefile.close()
 endfile.close()
 
-
+print "MTI done building site, Sir."

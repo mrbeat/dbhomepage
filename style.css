@@ -16,9 +16,13 @@ div {
 }
 
 a {
-    text-decoration: underline;
+    text-decoration: none;
     color: #000;
     font-weight: bold;
+}
+
+a.active:link, a.active:visited, a:hover {
+    color: #11C;
 }
 
 #logoplayerpanel {
@@ -91,7 +95,7 @@ a {
 }
 
 h1 {
-    border-bottom: 1px solid #333;
+    border-bottom: 0px solid #333;
 }
 
 #content {
@@ -99,6 +103,26 @@ h1 {
     margin-left: 50px;
     top: 135px;
     position: absolute;
+}
+
+#content p {
+    width: 450px;
+}
+
+.date {
+    font-size: 80%;
+    color: #999;
+    border-bottom: 1px solid #999;
+}
+
+.comment {
+    border: 0;
+    font-size: 12px;
+}
+
+.comment h1 {
+    border: 0;
+    font-size: 14px;
 }
 
 
