@@ -2,12 +2,13 @@
 """
 Markup Template Inserter
 
-python mti.py arg1 arg2 arg3a arg3b argNa argNb
+python mti.py [output] [template] [directivefile] [directivename] [directivenamefile]
 
-arg1 = output file
-arg2 = input directive file
-arg3a-argNa = name of directive 
-arg3b-argNb = corresponding file to insert at arg3a
+output = output file
+template = template file
+directivefile = input directive file
+directivename = name of directive
+directivenamefile = corresponding file to insert at directivename
 
 """
 
@@ -19,8 +20,9 @@ argarr = sys.argv[1:]
 final = ""
 
 endfile = open(argarr.pop(0), "w")
+template = open(argarr.pop(0), "r")
 directivefile = open(argarr.pop(0), "r")
-template = open("template", "r")
+
 
 directivearr = directivefile.read().split('%MTI ')
 directives = {}

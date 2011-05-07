@@ -1,0 +1,16 @@
+%MTI %% scripts
+
+%MTI %% title
+<title>Db - Open Source</title>
+%MTI %% bodyonload
+<body onload="init('navigation_opensource');">
+%MTI %% content
+<h1>Open source music HELLYEAH!</h1>
+<p>
+Disneybitch is the first open source band in the world! What? Yes!
+</p>
+<p>If you have either the <a href="http://www.elektron.se/products/machinedrum-uw">elektron machinedrum uw</a> or the <a href="http://www.elektron.se/products/monomachine">elektron monomachine</a>, or preferrebly both, you can load up the sysexes for our songs on your own machines and do very extreme remixes, if you'd like.
+</p>
+<p>
+The sysexes are <a href="https://github.com/mrbeat/sysexdumps">available at github.</a>
+</p>

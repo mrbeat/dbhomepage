@@ -16,22 +16,10 @@
 
 <!--MTI bodyonload -->
 
-<div id="logoplayerpanel">
-    <div id="logo"><p id="twitterstatus"></p></div>
-    <div id="player">player</div>
-</div>
-
-<div id="navigation_container">
-<ul id="navigation">
-    <li id="navigation_index"><a href="index.html">news</a></li>
-<!--    <li id="navigation_mrbeat"><a href="vemarmrbeat.html">vem &auml;r Mr. Beat?</a></li>
-    <li id="navigation_teman"><a href="teman.html">teman</a></li>
-    <li id="navigation_info"><a href="infobokning.html">info/&zwnj;bokning</a></li>
-    <li id="navigation_info"><a href="opensource.html">open source</a></li>-->
-</ul>
-</div>
+<!--MTI headernavigation -->
 
 <div id="content">
+<!--MTI musicpopoutlink -->
 <!--MTI content -->
 </div>
 

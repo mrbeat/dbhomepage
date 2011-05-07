@@ -1,0 +1,15 @@
+<div id="logoplayerpanel">
+    <div id="logo"><p id="twitterstatus"></p></div>
+</div>
+
+<div id="navigation_container">
+<ul id="navigation">
+    <li id="navigation_index"><a href="index.html">news</a></li>
+    <li id="navigation_music"><a href="music.html">music</a></li>
+    <li id="navigation_opensource"><a href="opensource.html">open source</a></li>
+<!--    <li id="navigation_mrbeat"><a href="vemarmrbeat.html">vem &auml;r Mr. Beat?</a></li>
+    <li id="navigation_teman"><a href="teman.html">teman</a></li>
+    <li id="navigation_info"><a href="infobokning.html">info/&zwnj;bokning</a></li>
+-->
+</ul>
+</div>

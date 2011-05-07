@@ -46,8 +46,7 @@ a.active:link, a.active:visited, a:hover {
     margin: 0px 40px 5px 40px;
 }
 #twitterstatus a {
-    text-decoration: none;
-    color: #666;
+    color: #666
 }
 
 #player {
@@ -101,8 +100,9 @@ h1 {
 #content {
     margin: 15px;
     margin-left: 50px;
-    top: 135px;
-    position: absolute;
+    display: inline-block;
+    /* top: 135px; */
+    /* position: absolute; */
 }
 
 #content p {

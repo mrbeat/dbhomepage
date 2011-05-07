@@ -1,6 +1,6 @@
 %MTI %% scripts
 <script type="text/javascript" src="index.js"></script>
 %MTI %% title
-<title>Db Homepage - News</title>
+<title>Db - News</title>
 %MTI %% bodyonload
 <body onload="indexInit('navigation_index');">
